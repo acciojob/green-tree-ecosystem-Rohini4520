@@ -5,6 +5,7 @@ public class Leaf {
 
     public Leaf(String shape) {
         // your code goes here
+        this.shape =shape;
     }
 
     public String getShape() {

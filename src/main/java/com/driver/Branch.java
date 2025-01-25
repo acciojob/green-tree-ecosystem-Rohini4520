@@ -6,6 +6,8 @@ public class Branch {
 
     public Branch(int length, Leaf leaf) {
       // your code goes here
+        this.length = length;
+        this.leaf = leaf;
     }
 
     public int getLength() {

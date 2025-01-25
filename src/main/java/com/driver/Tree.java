@@ -9,10 +9,13 @@ public class Tree {
 
     public Tree(String name) {
         // your code goes here
+        this.name = name;
+        this.branches = new ArrayList<>();
     }
 
     public void addBranch(int length, Leaf leaf) {
         // your code goes here
+        branches.add(new Branch(length,leaf));
     }
 
     public List<Branch> getBranches() {
